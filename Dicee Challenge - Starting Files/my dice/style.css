@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to right , #2F3645 , #2F3645);
+    font-family: Playwrite DK Loopet;
+    border-style: double;
+    font-weight: 400;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-style: italic;
+    font-size: 100px;
+    margin-top: 100px;  
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 50px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1 1;
+    padding-left: 100px;
+    font-size: 30px;
+    color: green;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.btn{
+    border-radius: 10%;
+}
